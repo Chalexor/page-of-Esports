@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("../Fondo.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#Contenedor{
+	background-color: #272727;
+	width: 1300px;
+	min-height: 100px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+header{
+	background-color: #222222;
+	width: 1200px;
+	height: 650px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.slider {
+	width: 1150px;
+	height: 625px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate;
+	
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+
+.slider img{
+	width: 1150px;
+	height: 625px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+nav{
+	background-color: #222222;
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+nav ul{
+	text-align:center;
+	padding-top: 25px;
+	padding-left: 0px;
+}
+
+nav ul a{
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	font-family: Verdana;
+	padding: 25px 24px 27px 24px;
+}
+
+nav ul a:hover{
+	background: #9E9E9E;
+	color: #131313;
+}
+
+#main{
+	width: 1300px;
+}
+
+#Sec1{
+	background-color: #222222;
+	width: 790px;
+	min-height: 100px;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+#Sec1 img{
+	width: 100%;
+	height: 50%;
+}
+#Sec1 #tab{
+	font-size: 13px;
+}
+#Sec1 #ti{
+	width: 140px;
+	height: 140px;
+}
+#Sec1 video{
+	height: 420px;
+	width: 90%;
+	padding-left: 40px;
+}
+#A1{
+	width: 90%;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Verdana;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+#A1 h6{
+	color: #828A00;
+}
+
+aside{
+	background-color: #222222;
+	display: inline-block;
+	width: 400px;
+	min-height: 100px;
+	margin-right: 40px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	float: right;
+	box-shadow: 5px 5px 10px 10px;
+	
+	position: sticky;
+	right: 0;
+	top: 20px;
+}
+aside h2{
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 27px;
+	text-align: center;
+	color: yellow;
+}
+aside ul{
+	list-style: none;
+	font-size: 15px;
+	font-family: Verdana;
+	color: white;
+}
+aside img{
+	width: 100px;
+	height: 80px;
+	float: left;
+	padding-right: 20px;
+}
+
+aside section{
+	padding-top: 50px;
+	padding-right: 10px;
+}
+#RS img{
+	margin-left: 27px;
+	width: 50px;
+	height: 50px;
+}
+footer{
+	background-color: #1E1E1E;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	margin-top: 20px;
+	line-height: 3;
+	text-align: center;
+}
+footer h1{
+	color: white;
+}
+
